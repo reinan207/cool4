@@ -942,8 +942,8 @@ local function startFly()
             if flyBV and flyBV.Parent then flyBV.Velocity = Vector3.zero end
             return
         end
-        local cam=workspace.CurrentCamera; local spd=60
-        if UIS:IsKeyDown(Enum.KeyCode.LeftShift) then spd=spd*2.5 end
+        local cam=workspace.CurrentCamera; local spd=60 --velocidade do fly
+        if UIS:IsKeyDown(Enum.KeyCode.LeftShift) then spd=spd*10 end --velocidade do shift turbo do fly
         if UIS:IsKeyDown(Enum.KeyCode.LeftControl) then spd=spd*0.25 end
         local dir=Vector3.zero
         if UIS:IsKeyDown(Enum.KeyCode.W) then dir+=cam.CFrame.LookVector end
