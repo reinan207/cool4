@@ -1,4 +1,4 @@
--- MENU UNIFICADO | HUB + SEGUIR JOGADORES + SERVER SAVER
+-- HUB MENU | HUB + SEGUIR JOGADORES + SERVER SAVER
 -- Menu: Y | ESP: T | Fly: F | Noclip: N
 
 local Players = game:GetService("Players")
